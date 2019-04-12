@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tab_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tab_act_to_right"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="none"
+        android:textColor="@color/colorPrimary"
+        android:text="test"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tab_act_to_left"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="none"
+        android:textColor="@color/colorPrimary"
+        android:text="test"
+        android:textSize="20sp"
+        android:layout_gravity="end"
+        android:gravity="end"/>
+</FrameLayout>
